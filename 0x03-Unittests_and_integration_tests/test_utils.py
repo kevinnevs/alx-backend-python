@@ -12,6 +12,7 @@ from utils import (
     memoize,
 )
 
+
 class TestAccessNestedMap(unittest.TestCase):
     """Tests the 'access_nested_map' function."""
     @parameterized.expand([
